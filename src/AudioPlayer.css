@@ -1,0 +1,20 @@
+.seek{
+    bottom:0;
+    /* border: 3px solid rgb(34, 0, 255); */
+    position: absolute;
+    display: flex;
+    width:100vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+audio{
+    bottom:0;
+    /* border: 2px solid red; */
+    position: absolute;
+    display: flex;
+    width: 80vw;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #b9c6d1;
+  }
